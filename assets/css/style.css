@@ -1,0 +1,354 @@
+@media screen and (min-width: 1px) and (max-width: 640px) {
+        #header{
+            float: left;
+            background-color: #4aaaa5;
+            color: #ffffff;
+            font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+            width: 640px;
+            position: static;
+            text-align: center;
+            margin-left: -10px;
+            margin-top: -20px;
+        }
+
+        #nav-id{
+            left:-409px;
+            width: 640px;
+            margin-top: -23px;
+            z-index:1;
+            height: 40px;
+            position: relative;
+            border-bottom: solid #C0C0C0;
+            border-top:solid #C0C0C0;
+        }
+        
+        #dark-text{
+            width: 500px;
+        }
+
+        #bg-section-id{
+            max-width: 500px;
+            margin-top: 50px;
+            
+        }
+        #nav-text-size{
+            font-size:30px;
+        }
+
+        #nav-text{
+            margin-top:10px;
+            width:150px;
+            font-size: 17px;
+        }
+            
+        #p-item {
+            float:left;
+            width:90%;
+            padding: 10px;
+            margin-left:20px;
+            z-index: 0;
+            margin-bottom: -50px;
+        }
+
+        #p-item-title {
+              background: #4aaaa5;
+              color: white;
+              padding: 10px;
+              text-align: center;
+              z-index: 12;
+              height: 30px;
+              position: absolute;
+              display: inline;
+              margin-left: -470px;
+              margin-top: 260px;
+              width: 430px;
+              font-size: 30px
+        }
+    
+        #aside-id,#aside-id1,#aside-id2{
+                margin-left: 69px;
+                margin-top: 50px;
+                max-width: 500px;
+        }
+            
+        #aside-title{
+            text-align:left;
+            margin-left:20px;
+
+        }
+        
+        #bg-id{
+            margin-top: 79px;
+        }
+            
+    }
+
+@media screen and (max-width: 768px) {
+            
+            #nav-id{
+                margin-left: 400px;
+            }
+            
+            #bg-section-id{
+                margin-left: 70px;
+            }
+            
+            #aside-id,#aside-id1,#aside-id2{
+                margin-left: 69px;
+                margin-top: 50px;
+                width: 600px;
+                clear: both;
+            }
+            
+            #aside-title{
+                text-align:left;
+                margin-left:20px;
+            }
+        }
+
+@media screen and (min-width: 769px) and (max-width: 1500px) {
+            
+            #bg-section-id{
+                float:left;
+            }
+            
+            #aside-id {   
+                background-color: white;
+                border: groove;
+                opacity: 0.6;
+                width: 250px;
+                height: 170px;
+                margin-top: -894px;
+                margin-left: 760px;
+                position: relative;
+            }
+            
+            #aside-id1 {   
+                background-color: white;
+                border: groove;
+                opacity: 0.6;
+                width: 250px;
+                height: 170px;
+                margin-top: -825px;
+                margin-left: 760px;
+                position: relative;
+            }
+            
+            #aside-id2 {   
+                background-color: white;
+                border: groove;
+                opacity: 0.6;
+                width: 250px;
+                height: 170px;
+                margin-top: -682px;
+                margin-left: 760px;
+                position: relative;
+            }
+            #third{
+                width: 250px;
+                height: 50px;
+                bottom: 20px;
+                z-index: 1;
+                background-color: #4aaaa5;
+                text-align:center;
+                line-height: 50px;
+                color:white;
+                position: relative;
+                float:left;
+            }
+        }
+
+
+.header{
+    float: left;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+    width: 250px;
+    position: relative;
+    text-align: center;
+    left: 100px;
+    margin-top: -10px;
+
+}
+
+div.nav{
+    float: left;
+    background-color: #ffffff;
+    color: #cccccc;
+    font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+    position: fixed;
+    text-align: center;
+    font-size: 15px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 730px;
+}
+
+.bg {
+    position: absolute;
+    margin-top: 57px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+    background-image: url("/assets/images/restaurant_icons.png");
+    border-top-style: groove; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bg-section {
+    background-color: white;
+    border: groove;
+    width: 600px;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 100px;
+    opacity: 0.6;
+    overflow:hidden;
+}
+
+.dark-text {
+    margin-left: 20px;
+    font-size: 60px;
+    color: #4aaaa5;
+    opacity: 1;
+    border-bottom: solid #C0C0C0;
+    width: 560px;
+}
+
+.fixed-line {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 1px;
+    border: inset;
+    color: gainsboro;
+}
+
+.penguin {
+    height: 150px;
+    width: 250px;
+    margin-left: 20px;
+    float: left;
+    border: groove;
+    margin-right: 20px;
+}
+
+.aside {
+    background-color: white;
+    border: groove;
+    float: left;
+    opacity: 0.6;
+    width: 250px;
+    height: 170px;
+    margin-top: 90px;
+    margin-left: 760px;
+    position: relative;
+}
+
+.nav-text:link, .nav-text:visited {
+    background-color: white;
+    color: #777777;
+    padding: 5px px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.nav-text:hover, .nav-text:active {
+    background-color: #4aaaa5;
+    color: white;
+    border-radius: 30%;
+}
+
+
+.aside-title {
+    font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+    font-size:25px;
+    text-align: center;
+    color: #4aaaa5;
+}
+
+.aside-pic {
+    margin-left: 11px;
+    float:left;
+}
+
+.pquote {
+    float: left;
+    width: 300px;
+    background: url(/assets/images/quote.png) top left no-repeat;
+    background-size: 370px 120px; 
+    background-position: 2px 20px;
+    color: #777777;
+    font-size: 26px;
+    line-height: 0.9;
+    font-style: italic;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+blockquote {
+    margin: 4px;
+}
+
+.pquote p:first-letter {
+    font-size: 39px;
+    font-weight: bold;
+}
+
+.mytext {
+    width: 300px;
+}
+
+.submit-button {
+    width: 100px;
+    height: 40px;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 20px;
+}
+
+input {
+    width: 95%;
+}
+
+textarea {
+    width:95%;
+}
+
+.portfolio-item {
+    float:left;
+    width:45%;
+    padding: 10px;
+    margin-left:10px;
+    z-index: 0;
+    margin-bottom: -50px;
+}
+
+.portfolio-item:nth-child(odd) {
+    margin-left: -1px;
+}
+
+.portfolio-item img {
+    max-width:100%;;
+    margin: auto 20px 50px auto;
+    float:left;
+}
+
+.portfolio-title {
+    background: #4aaaa5;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    z-index: 12;
+    height: 20px;
+    position: absolute;
+    display: inline;
+    margin-left: -290px;
+    margin-top: 140px;
+    width: 250px;
+}
